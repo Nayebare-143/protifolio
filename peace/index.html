@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Design</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="photos.html">Photos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="main">
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Wilber</td>
+            <td>Peace</td>
+          </tr>
+        </tbody>
+
+      </table>
+      <p style="color: red" title="testing title">Bio information</p>
+      <form action="" method="get">
+        <div class="input-group">
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            id="first_name"
+            placeholder="enter your first Name"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            id="last_name"
+            placeholder="enter your last Name"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" placeholder="enter your location" />
+        </div>
+
+        <div class="input-group">
+          <label for="gender">Gender</label>
+          <div class="groups">
+            <input type="radio" name="gender" value="female" />Female
+            <input type="radio" name="gender" value="male" />Male
+          </div>
+        </div>
+      </form>
+
+      <!-- 
+   tables
+    -->
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nsengiyumva</td>
+            <td>Wilberforce</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Nsengiyumva</td>
+            <td>Wilberforce</td>
+            <td>Male</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
